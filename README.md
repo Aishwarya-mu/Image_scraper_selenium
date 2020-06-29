@@ -2,12 +2,16 @@
 
 It makes use of selenium and chrome web driver to auto scroll through Google image search results.
 
-The chrome driver for different operating system can be downloaded from this link. I have only included the windows chrome driver since I personally use windows 10 operating system.
+# Pre-requisites -
 
-Once downloaded your corresponding selenium chrome web driver, Change the DRIVER_PATH variable in the ipython notebook. Also if you do not have selenium installed on os,
+#Step 1 : pip install selenium, pillow, requests
 
-you can type the following on your command line interface [or] terminal:
+#Step 2 : make sure you have chrome installed on your machine
 
-pip install selenium, pillow, requests
+#Step 3 : Check your chrome version ( go to three dot then help then about google chrome )
+
+#Step 4 : Download the same chrome driver from here  " https://chromedriver.storage.googleapis.com/index.html "
+
+#Step 5 : put it inside the same folder of this code
 
 Edit the search string as well as the destination folder path.
